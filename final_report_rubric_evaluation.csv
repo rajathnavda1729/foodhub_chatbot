@@ -1,0 +1,21 @@
+Section,Description,Points
+Loading and Setting Up the LLM,"- Import and initialize required libraries
+- Configure the base LLM for reasoning and response generation 
+- Set up environment variables and necessary API keys 
+- Ensure reproducibility by fixing configs and parameters",3
+Question Answering LLM,"- Provide the LLM with sample questions to validate its ability to understand queries.
+- Generate responses and evaluate for accuracy, clarity, and relevance. 
+- Refine prompts or input formatting to improve the quality of answers.",5
+Build SQL Agent,"- Load the database using SQLDatabases
+- Define SQL Agent 
+- Test the SQL Agent by retrieving all the columns from the database for an Order ID",7
+Build Chat Agent,"- Define Order Query Tool: Takes the order context from the SQL Agent and generates a raw response for the query.
+- Define Answer Tool: Refines the raw response from the Order Query Tool into a polite, formal reply for the user. 
+- Combine Tools: Integrate the Order Query Tool and Answer Tool. 
+- Define Chat Agent: Build a Chat Agent using the combined tools.",21
+Build a Chatbot and Answer User Queries,"- Implement an Interactive Chatbot Loop (chatagent())
+- Generate responses for the questions provided 
+- Comment on the Agent workflow and accuracy of the outputs",14
+Actionable Insights and Recommendations,-Key takeaways for the business,4
+Business Report Quality,- Adhere to the business report checklist,6
+Total Points,,60
